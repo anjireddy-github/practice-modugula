@@ -45,3 +45,34 @@ Throughout history (and across disciplines), a few remarkable individuals stand 
 > "Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world."  
 > *Albert Einstein*
 
+---
+
+## Code Fencing
+
+Below is a short Python utility function that returns the 10 most common words in a text file. It demonstrates clean use of a context manager for safe file handling and the `Counter` collection for efficient frequency counting.
+
+```python
+from collections import Counter
+
+def top_word_frequencies(path: str, top_n: int = 10):
+	"""Return a list of (word, count) tuples for the most common words in the file.
+
+	Words are normalized to lowercase and split on whitespace. Punctuation handling
+	is minimal for simplicity; extend with regex tokenization if needed.
+	"""
+	counts = Counter()
+	with open(path, 'r', encoding='utf-8') as f:  # context manager ensures file closes
+		for line in f:
+			for token in line.strip().split():
+				counts[token.lower()] += 1
+	return counts.most_common(top_n)
+
+if __name__ == "__main__":
+	# Example usage (uncomment and adjust the filename to test):
+	# print(top_word_frequencies("example.txt"))
+	pass
+```
+
+Quick links: [with statement docs](https://docs.python.org/3/reference/compound_stmts.html#the-with-statement) | [collections.Counter](https://docs.python.org/3/library/collections.html#collections.Counter)
+
+
