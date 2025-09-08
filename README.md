@@ -11,3 +11,9 @@ I love **Breaking Bad** because of its **intense storytelling** and complex char
 2. Aaron Paul
 3. Giancarlo Esposito
 4. Anna Gunn (honorable mention)
+
+Other Shows I Enjoy:
+- Better Call Saul
+- Stranger Things
+- The Crown
+- Dark
