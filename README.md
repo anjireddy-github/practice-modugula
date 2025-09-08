@@ -17,3 +17,7 @@ Other Shows I Enjoy:
 - Stranger Things
 - The Crown
 - Dark
+
+---
+
+Explore more: Read about my favorite outdoor activity: [Hiking Activity & Why I Love It](./MyActivity.md)
