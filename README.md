@@ -34,3 +34,14 @@ Throughout history (and across disciplines), a few remarkable individuals stand 
 | Leonardo da Vinci | Quintessential polymath whose curiosity spanned art, anatomy, engineering, and invention—embodies boundless interdisciplinary creativity. | Apr 15, 1452 | May 2, 1519 |
 | Nelson Mandela | Symbol of reconciliation and moral leadership; insights on justice, forgiveness, and building inclusive societies. | Jul 18, 1918 | Dec 5, 2013 |
 | Ada Lovelace | Early visionary of computing; foresaw machines doing more than calculation—foundation for modern computer science imagination. | Dec 10, 1815 | Nov 27, 1852 |
+
+---
+
+## Favorite Quotes
+
+> "Somewhere, something incredible is waiting to be known."  
+> *Carl Sagan*
+
+> "Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world."  
+> *Albert Einstein*
+
