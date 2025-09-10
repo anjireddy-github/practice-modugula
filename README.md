@@ -50,7 +50,8 @@ Throughout history (and across disciplines), a few remarkable individuals stand 
 ## Code Fencing
 
 ### How to convert an object to JSON
-This Dart code sample will convert an object into a JSON string.
+This Dart code sample demonstrates how to use the `JsonEncoder` class from the `dart:convert` library to convert an object into a JSON string. It is useful for serializing Dart objects into a format suitable for storage or transmission.
+
 ```dart
 import 'dart:convert';
 
